@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Technity</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="logo-navbar">
                 <img class="logo-img" src="" alt="">
                 <span class="logo-text"></span>
@@ -21,97 +22,123 @@
         </nav>
     </header>
     <main>
-        <section id="beranda">
+        <section id="beranda" class="beranda">
             <div class="beranda-img">
                 <img src="" alt="">
             </div>
-            <div class="beranda-text">
-                <h1>Technity</h1>
-                <p class="tagline">Inovasi Software Tanpa Batas</p>
-                <p class="description">
-                    Kami merancang dan membangun aplikasi web, mobile, serta sistem Software custom yang mengakselerasi bisnis anda.
-                </p>
-            </div>
-            <div class="beranda-button">
-                <a href="#layanan" class="button-layanan">Lihat Layanan</a>
-                <a href="#kontak" class="button-kontak">Konsultasikan Sekarang</a>
-            </div>
-        </section>
-        <section id="tentang">
-            <div class="tentang-header">
-                <h2>Tentang Kami</h2>
-                <p>Membangun Solusi Digital dengan Teknologi Terdepan</p>
-            </div>
-            <div class="tentang-description">
-                <p>Technity adalah penyedia layanan software development yang berdedikasi untuk membantu bisnis mempercepat transformasi digital.</p>
-            </div>
-            <div class="tentang-values">
-                <article class="value-card">
-                    <span class="number">01</span>
-                    <h3>Kualitas & Performa</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolorem quaerat dicta itaque excepturi atque, ullam magni vero in odit ipsam at, eligendi saepe aliquam eum ipsum consequatur accusamus qui.</p>
-                </article>
-                <article class="value-card">
-                    <span class="number">02</span>
-                    <h3>Pengalaman Pengguna</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi doloremque quo soluta quis natus nihil quidem hic aperiam pariatur. Maiores labore omnis nesciunt recusandae deserunt pariatur harum voluptate alias obcaecati!</p>
-                </article>
-                <article class="value-card">
-                    <span class="number">03</span>
-                    <h3>Transparansi & Kolaborasi</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, explicabo corrupti aliquid deleniti tempore quia iusto vel numquam asperiores nemo animi perferendis at, necessitatibus harum repudiandae illum laboriosam eius accusantium.</p>
-                </article>
+            <div class="beranda-text-container">
+                <div class="beranda-text">
+                    <div class="beranda-text-headline">
+                        <h1>Technity</h1>
+                        <p class="tagline">Inovasi Software Tanpa Batas</p>
+                    </div>
+                    <p class="description">
+                        Kami merancang dan membangun aplikasi web, mobile, serta sistem Software custom yang mengakselerasi bisnis anda.
+                    </p>
+                </div>
+                <div class="beranda-button">
+                    <a href="#layanan" class="button-layanan">Lihat Layanan</a>
+                    <a href="#kontak" class="button-kontak">Konsultasikan Sekarang</a>
+                </div>
             </div>
         </section>
-        <section id="layanan">
+        <section id="tentang" class="tentang">
+            <div class="tentang-container">
+                <div class="tentang-container-text">
+                    <div class="tentang-header">
+                        <h2>Tentang Kami</h2>
+                        <p>Membangun Solusi Digital dengan Teknologi Terdepan</p>
+                    </div>
+                    <div class="tentang-description">
+                        <p>Technity adalah penyedia layanan software development yang berdedikasi untuk membantu bisnis mempercepat transformasi digital.</p>
+                    </div>
+                </div>
+                <div class="tentang-values">
+                    <article class="value-card">
+                        <span class="number">01</span>
+                        <div class="value-card-text">
+                            <h3>Kualitas & Performa</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolorem quaerat dicta itaque excepturi atque, ullam magni vero in odit ipsam at, eligendi saepe aliquam eum ipsum consequatur accusamus qui.</p>
+                        </div>
+                    </article>
+                    <article class="value-card">
+                        <span class="number">02</span>
+                        <div class="value-card-text">
+                            <h3>Pengalaman Pengguna</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi doloremque quo soluta quis natus nihil quidem hic aperiam pariatur. Maiores labore omnis nesciunt recusandae deserunt pariatur harum voluptate alias obcaecati!</p>
+                        </div>
+                    </article>
+                    <article class="value-card">
+                        <span class="number">03</span>
+                        <div class="value-card-text">
+                            <h3>Transparansi & Kolaborasi</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, explicabo corrupti aliquid deleniti tempore quia iusto vel numquam asperiores nemo animi perferendis at, necessitatibus harum repudiandae illum laboriosam eius accusantium.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="layanan" class="layanan">
             <h2>Layanan Kami</h2>
-            <article class="layanan-card">
-                <h3>Web Development</h3>
-                <p>Pengembangan situs web modern dan responsif.</p>
-            </article>
-            <article class="layanan-card">
-                <h3>Mobile Development</h3>
-                <p>Pengembangan aplikasi Android dan IOS.</p>
-            </article>
+            <div class="layanan-card-container">
+                <article class="layanan-card">
+                    <h3>Web Development</h3>
+                    <p>Pengembangan situs web modern dan responsif.</p>
+                </article>
+                <article class="layanan-card">
+                    <h3>Mobile Development</h3>
+                    <p>Pengembangan aplikasi Android dan IOS.</p>
+                </article>
+                <article class="layanan-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Perancangan antarmuka pengguna yang intuitif</p>
+                </article>
+            </div>
         </section>
-        <section id="kontak">
-            <div class="kontak-header">
-                <h2>Kontak Kami</h2>
-                <p>Kami menyediakan kontak kami jika anda ingin menghubungi kami secara mandiri. Namun, kami juga bersedia jika anda membutuhkan konsultasi langsung</p>
-            </div>
-            <div class="kontak-card">
-                <img src="" alt="" class="kontak-logo">
-                <h4></h4>
-                <span></span>
-            </div>
-            <div class="kontak-card">
-                <img src="" alt="" class="kontak-logo">
-                <h4></h4>
-                <span></span>
-            </div>
-            <div class="kontak-card">
-                <img src="" alt="" class="kontak-logo">
-                <h4></h4>
-                <span></span>
-            </div>
-            <div class="kontak-card">
-                <img src="" alt="" class="kontak-logo">
-                <h4></h4>
-                <span></span>
+        <section id="kontak" class="kontak">
+            <div class="kontak-container-right">
+                <div class="kontak-header">
+                    <h2>Kontak Kami</h2>
+                    <p>Kami menyediakan kontak kami jika anda ingin menghubungi kami secara mandiri. Namun, kami juga bersedia jika anda membutuhkan konsultasi langsung</p>
+                </div>
+                <div class="kontak-card-container">
+                    <div class="kontak-card">
+                        <img src="" alt="" class="kontak-logo">
+                        <h4>Telepon</h4>
+                        <span>+62 833 724 916</span>
+                    </div>
+                    <div class="kontak-card">
+                        <img src="" alt="" class="kontak-logo">
+                        <h4>Kantor</h4>
+                        <span>Jl.Kenangan No.21, Jakarta Barat, Jakarta</span>
+                    </div>
+                    <div class="kontak-card">
+                        <img src="" alt="" class="kontak-logo">
+                        <h4>Email</h4>
+                        <span>office@email.com</span>
+                    </div>
+                    <div class="kontak-card">
+                        <img src="" alt="" class="kontak-logo">
+                        <h4>Dokumentasi</h4>
+                        <span>Technity.com/docs</span>
+                    </div>
+                </div>
             </div>
 
-            <form action="">
-                <label for="name">Nama Lengkap</label>
-                <input type="text" id="name" name="name" placeholder="full name">
-                <br>
-                <label for="email">Alamat Surel</label>
-                <input type="email" id="email" name="email" placeholder="email">
-                <br>
-                <label for="message">Pesan</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="your message..."></textarea>
-                <br>
-                <button type="submit">Kirim</button>
-            </form>
+            <div class="kontak-container-left">
+                <form action="">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" placeholder="full name">
+                    <br>
+                    <label for="email">Alamat Surel</label>
+                    <input type="email" id="email" name="email" placeholder="email">
+                    <br>
+                    <label for="message">Pesan</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="your message..."></textarea>
+                    <br>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer></footer>

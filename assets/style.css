@@ -3,3 +3,31 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*---Navbar---*/
+.navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li>a {
+    text-decoration: none;
+}

@@ -43,3 +43,44 @@ body {
 .beranda-text-container {
     text-align: center;
 }
+
+/*---Section Tentang---*/
+.tentang {
+    margin: 50px;
+}
+
+.tentang-container {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    align-items: center;
+}
+
+.tentang-container-text {
+    padding: 30px;
+}
+
+.tentang-values {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.value-card {
+    display: flex;
+    gap: 10px;
+    padding: auto;
+    align-items: center;
+}
+
+.number {
+    font-size: 30px;
+}
+
+.value-card-text h3 {
+    margin: 0 0 4px 0;
+}
+
+.value-card-text p {
+    margin: 0;
+}
